@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --color-negro: #000000;
+  --color-blanco: #ffffff;
+  --color-azul: #075bea;
+  --color-azul-alt: #013df3;
+  --color-amarillo: #ffd400;
+  --color-amarillo-alt: #f7e20f;
+  --color-rojo: #f21d25;
+  --color-rojo-alt: #f3010d;
+  --color-whatsapp: #25d366;
+  --font-lovelo: 'Outfit', 'Montserrat', sans-serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+}
+
+body {
+  background-color: var(--color-negro);
+  color: var(--color-blanco);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+/* Lovelo Brand Font Style */
+.font-lovelo {
+  font-family: var(--font-lovelo);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-weight: 800;
+}
+
+.font-lovelo-black {
+  font-family: var(--font-lovelo);
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-weight: 900;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #404040;
+}

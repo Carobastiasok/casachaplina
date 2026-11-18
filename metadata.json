@@ -1,0 +1,6 @@
+{
+  "name": "Casa Chaplina | Espacio Cultural & Locación",
+  "description": "Landing page oficial de Casa Chaplina en Villa Ortúzar. Casona cultural, Taller de Teatro para Adultos con Martina Alonso y locación para producciones audiovisuales y fotografía.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
